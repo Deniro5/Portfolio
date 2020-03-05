@@ -1,0 +1,93 @@
+.uploadContainer {
+    margin-top:10vh;
+    text-align: center;
+    color:white;
+    animation: fade 1s,
+}
+
+
+.fieldContainer {
+    max-width: 600px;
+    width:90%;
+    margin: auto;
+    font-size: 14px;
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+        font-size: 14px;
+      }
+      
+    input[type=text]:focus {
+        border: 3px solid rgb(67, 67, 141);
+    }
+    textarea {
+        width: 100%;
+        height: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        background-color: #f8f8f8;
+        resize: none;
+        font-size: 14px;
+        margin-top:30px;
+        outline:none;
+        transition: 0.5s;
+    }
+    textarea:focus {
+        border: 3px solid rgb(67, 67, 141);
+    }
+    textarea ::placeholder {
+        color:green;
+    }
+}
+
+.uploadContainer h1 {
+    margin-top:50px;
+}
+.styleLabel { 
+    margin-top:30px;
+}
+
+.subTitle {
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:50px;
+    max-width:450px;
+    width:90%;
+}
+
+.uploadContainer button {
+    margin:50px 25px;
+    color:white;
+    border: 2px solid white;
+    font-weight: bold;
+    background:none;
+    height:30px;
+    width:140px;
+    transition:0.3s;
+    &:hover {
+        background: white;
+        color: rgb(0, 0, 56);
+        cursor: pointer;
+    }
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @media only screen and (max-width: 480px) {
+    .subTitle {
+        font-size:14px;
+    }
+    
+  }
+  
+

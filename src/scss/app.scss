@@ -1,0 +1,17 @@
+ @import './components/home.scss';
+ @import './components/header.scss';
+ @import './components/about.scss';
+ @import './components/contact.scss';
+ @import './components/project.scss';
+ @import './components/showcase.scss';
+
+
+body {
+  margin: 0;
+  font-family: "Palatino", "Lucida Grande", sans-serif;
+  background-image: url("background.jpg");
+}
+
+::placeholder {
+  font-family: "Palatino", "Lucida Grande", sans-serif;
+}

@@ -1,0 +1,26 @@
+.showcaseContainer {
+  text-align: center;
+  margin-top:50px;
+  h1 {
+    color:white;
+  }
+  p {
+    color:lightgray;
+    margin-bottom:40px;
+  }
+  animation: fade 1s;
+} 
+
+.showcaseDivider {
+  height:2px;
+  width: 175px;
+  background:white;
+  margin:auto;
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
