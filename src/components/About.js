@@ -17,8 +17,11 @@ import {Link} from "react-router-dom";
                 <h2 className = "aboutSubtitle2"> (Front end web developer)</h2>
               </div>
               <div className = "aboutTextContainer2"> 
-              <p> I was born in London, England in 1995 before relocating to Ajax, Ontario in December of 2005. I have been programming for 10 years and my passion for computers eventually led to the acquisition of a Bachelor's Degree in Computer Science from the University of Toronto. During this time I discovered my main passion which was Front end web development. Since then I have devoted much of my time to the development of various projects, in hopes of further improving my skills as a Front end web developer, in particular my understanding of HTML, CSS, Javascript and React. </p> 
-              <p> Feel free to view the <Link style ={linkStyle} to = "/projects"> Projects </Link> page to view some of the work I have completed recently. For any further questions please visit the <Link style ={linkStyle} to = "/contact"> Contact </Link> page. </p>
+              <p> Hi! My name is Dean. I was born London, England but moved to Ajax, Ontario at the tender age of 10 where it’s been home since. I’ve been programming for over 10 years and hold a Bachelor's Degree in Computer Science from the University of Toronto. It was during my undergraduate tenure that I discovered my passion for Front end web development which combines my love for programming with an interest in user experience and design. I’m motivated by the questions “Why are people here [on this site]?” and “How can we design the space such that they get what they need, how they need it?”
+                  Since then I have devoted my time to developing various projects and strengthening my skills as a Front end web developer. I’ve been particularly focused on honing my understanding of HTML, CSS, Javascript, and React. When I’m not coding I’m either playing sports, spending time with family/friends or enjoying nature. 
+                  </p>  
+                 <p> To view recent samples of my work, feel free to browse the <Link style ={linkStyle} to = "/projects"> Projects </Link> page. If you have any questions or just want to chat about all things computer science, please contact me at deantowheed5@gmail.com. </p> 
+     
               </div>       
         </div>
       );
