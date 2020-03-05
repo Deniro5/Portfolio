@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
       return (
         <div className = "aboutContainer2">
             <div className = "aboutImgContainer2">
-              <img alt = "portrait" src = "../img/edited.png"/>
+              <img alt = "portrait" src = "imgs/edited.png"/>
             </div>
               <div className = "titleContainer">
                 <h1 className = "aboutName2"> Dean Towheed </h1>
