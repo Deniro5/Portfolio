@@ -10,7 +10,7 @@ const projects = [
   {src: "https://github.com/Deniro5/Notes" ,link: "https://deniro5.github.io/Notes/", imgsrc: "imgs/notes.png", title: "Notes", Description: "Notes App. Create, Edit and delete notes. Search for notes that you have created. Notes are stored in local storage."},
   {src: "https://github.com/Deniro5/Countries" ,link: "https://deniro5.github.io/Countries/", imgsrc: "imgs/countries.png", title: "Country Info Website", Description: "Country information site. Displays information such as population, size and currency about all countries around the world. Made with the help of the restcountries API."},
 //  {imgsrc: "imgs/pokedex.png", title: "Pokedex", Description: "Pokedex App. Displays basic information about 800+ pokemon. Can search for specific pokemon using the search bar or navigate using the arrows. Made with the help of pokeapi API."},
- // {imgsrc: "imgs/gram.png", title: "Instagram Remake", Description: "Mock social media website (Instagram). Sign up, follow friends, Post pictures, Like and comment on posts etc... Made using React and Node.js"},
+  {src: "https://github.com/Deniro5/Gram", link: "https://rocky-lake-89848.herokuapp.com/" , imgsrc: "imgs/gram.png", title: "Instagram Remake", Description: "Mock social media website. Sign in as a@a.com, b@b.com .... e@e.com. Password is first letter of username, Made using React and Node.js"},
 ]
 
 const Showcase = props => {
