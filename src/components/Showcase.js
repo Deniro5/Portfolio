@@ -2,8 +2,9 @@ import React from 'react';
 import Project from './Project';
 
 const projects = [
+  {src: "https://github.com/Deniro5/Tetris" ,link: "https://deniro5.github.io/Tetris/", imgsrc: "imgs/tetris.png", title: "Tetris", Description: "Classic game of Tetris made using React.             "},
   {src: "https://github.com/Deniro5/clothingStore" ,link: "https://deniro5.github.io/clothingStore/", imgsrc: "imgs/ecommerce.png", title: "Clothing Store Template", Description: "Mock clothing store. Search for items using the search bar or browse through the store using the header items. Can select different styles/sizes of each product."},
-  {src: "https://github.com/Deniro5/Blackjack" ,link: "https://deniro5.github.io/Blackjack/", imgsrc: "imgs/blackjack.png", title: "Blackjack", Description: "Play the classic game of Blackjack against the dealer."},
+  {src: "https://github.com/Deniro5/Blackjack" ,link: "https://deniro5.github.io/Blackjack/", imgsrc: "imgs/blackjack.png", title: "Blackjack", Description: "Play Blackjack against the automated dealer. Made with React."},
   {src: "https://github.com/Deniro5/Clinic" ,link: "https://deniro5.github.io/Clinic/", imgsrc: "imgs/clinic.png", title: "Clinic Template", Description: "Clinic Website Template. View information about the clinic and it's doctors. Contact the clinic about any inquiries."},
   {src: "https://github.com/Deniro5/Quiz" ,link: "https://deniro5.github.io/Quiz/", imgsrc: "imgs/quiz.png", title: "Quiz Website", Description: "Quiz Website with 6 different categories of quizzes to choose from. Made with the help of the Opentdb API."},
   {src: "https://github.com/Deniro5/MatchingGame" ,link: "https://deniro5.github.io/MatchingGame/", imgsrc: "imgs/matching.png", title: "Matching Game", Description: "Matching Pairs Game. Choose from either easy, medium or hard and try and find the matching pairs before time runs out."},
