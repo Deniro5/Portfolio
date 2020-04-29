@@ -86,12 +86,12 @@ const projects = [
     Description: "Randomly generated wordsearch game. Made using Canvas.",
   },
   {
-    src: "https://github.com/Deniro5/Pokedex",
-    link: "https://deniro5.github.io/Pokedex/",
+    src: "https://github.com/Deniro5/Pokedex2",
+    link: "https://deniro5.github.io/Pokedex2/",
     imgsrc: "imgs/pokedex.png",
     title: "Pokedex",
     Description:
-      "Pokedex App. Displays basic information about 800+ pokemon. Can search for specific pokemon using the search bar or navigate using the arrows. Made with the help of pokeapi API.",
+      "Pokedex App made with Typescript and React.  Displays basic information about 800+ pokemon. Can search for specific pokemon using the search bar or navigate using the arrows. Made with the help of pokeapi API.",
   },
   {
     src: "https://github.com/Deniro5/Gram",
