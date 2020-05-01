@@ -7,7 +7,7 @@ const projects = [
     link: "https://deniro5.github.io/Tetris/",
     imgsrc: "imgs/tetris.png",
     title: "Tetris",
-    Description: "Classic game of Tetris made using React.             ",
+    Description: "Classic game of Tetris. Made with React.             ",
   },
   {
     src: "https://github.com/Deniro5/clothingStore",
@@ -16,13 +16,6 @@ const projects = [
     title: "Clothing Store Template",
     Description:
       "Mock clothing store. Search for items using the search bar or browse through the store using the header items. Can select different styles/sizes of each product.",
-  },
-  {
-    src: "https://github.com/Deniro5/Blackjack",
-    link: "https://deniro5.github.io/Blackjack/",
-    imgsrc: "imgs/blackjack.png",
-    title: "Blackjack",
-    Description: "Play Blackjack against the automated dealer. Made with React.",
   },
   {
     src: "https://github.com/Deniro5/dungeoncrawler",
@@ -48,6 +41,14 @@ const projects = [
       "Quiz Website with 6 different categories of quizzes to choose from. Made with the help of the Opentdb API.",
   },
   {
+    src: "https://github.com/Deniro5/Gram",
+    link: "https://rocky-lake-89848.herokuapp.com/",
+    imgsrc: "imgs/gram.png",
+    title: "Instagram Remake",
+    Description:
+      "Social media website. Sign in as a@a.com, b@b.com .... e@e.com. Password is first letter of username. Made using React, Node.js and Express",
+  },
+  {
     src: "https://github.com/Deniro5/MatchingGame",
     link: "https://deniro5.github.io/MatchingGame/",
     imgsrc: "imgs/matching.png",
@@ -55,21 +56,13 @@ const projects = [
     Description:
       "Matching Pairs Game. Choose from either easy, medium or hard and try and find the matching pairs before time runs out.",
   },
-  {
-    src: "https://github.com/Deniro5/Notes",
-    link: "https://deniro5.github.io/Notes/",
-    imgsrc: "imgs/notes.png",
-    title: "Notes",
-    Description:
-      "Notes App. Create, Edit and delete notes. Search for notes that you have created. Notes are stored in local storage.",
-  },
-  {
+  /* {
     src: "https://github.com/Deniro5/Snake",
     link: "https://deniro5.github.io/Snake/",
     imgsrc: "imgs/snake.png",
     title: "Snake",
-    Description: "Classic game of Snake made using React.             ",
-  },
+    Description: "Classic game of Snake. Made using React.             ",
+  }, 
   {
     src: "https://github.com/Deniro5/Countries",
     link: "https://deniro5.github.io/Countries/",
@@ -77,6 +70,13 @@ const projects = [
     title: "Country Info Website",
     Description:
       "Country information site. Displays information such as population, size and currency about all countries around the world. Made with the help of the restcountries API.",
+  }, */
+  {
+    src: "https://github.com/Deniro5/Blackjack",
+    link: "https://deniro5.github.io/Blackjack/",
+    imgsrc: "imgs/blackjack.png",
+    title: "Blackjack",
+    Description: "Play Blackjack against the automated dealer. Made with React.",
   },
   {
     src: "https://github.com/Deniro5/Wordsearch",
@@ -93,14 +93,6 @@ const projects = [
     Description:
       "Pokedex App made with Typescript and React.  Displays basic information about 800+ pokemon. Can search for specific pokemon using the search bar or navigate using the arrows. Made with the help of pokeapi API.",
   },
-  {
-    src: "https://github.com/Deniro5/Gram",
-    link: "https://rocky-lake-89848.herokuapp.com/",
-    imgsrc: "imgs/gram.png",
-    title: "Instagram Remake",
-    Description:
-      "Mock social media website. Sign in as a@a.com, b@b.com .... e@e.com. Password is first letter of username, Made using React and Node.js",
-  },
 ];
 
 const Showcase = (props) => {
@@ -108,7 +100,6 @@ const Showcase = (props) => {
     <div className='showcaseContainer'>
       <h1> Projects </h1>
       <div className='showcaseDivider' />
-      <p>All projects made using React.</p>
       {projects.map((project, index) => (
         <Project
           link={project.link}
@@ -118,6 +109,13 @@ const Showcase = (props) => {
           description={project.Description}
         />
       ))}
+      <p
+        onClick={() => {
+          window.scroll(0, 0);
+        }}
+        id='topBtn'>
+        Back to Top
+      </p>
     </div>
   );
 };

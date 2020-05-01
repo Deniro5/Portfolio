@@ -1,95 +1,98 @@
 .projectContainer {
   max-width: 1000px;
-  width:100%;
-  margin:auto;
-  margin-bottom:50px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(48, 48, 48);
 }
 
 .projectTextContainer {
   display: inline-block;
   vertical-align: top;
-  margin-top:50px;
-  margin-right:20px;
+  margin-top: 50px;
+  margin-right: 20px;
   text-align: left;
-  h2 {
-    color:white;
+  #title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: rgb(245, 245, 153);
+    }
   }
   p {
-    color:lightgrey;
-    width:400px;
+    color: teal;
+    width: 400px;
     line-height: 25px;
   }
 }
 
 .projectImgContainer {
   display: inline-block;
-  background:rgb(0, 7, 49);
+  background: rgb(0, 7, 49);
   height: 250px;
   width: 450px;
-  margin:35px 50px;
+  margin: 35px 50px;
   display: inline-block;
   border: black 1px solid;
 
   img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 0.4s;
     cursor: pointer;
     &:hover {
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      opacity: 0.75;
     }
   }
-} 
-
+}
 
 @media only screen and (max-width: 1080px) {
   .projectTextContainer {
     display: inline-block;
     vertical-align: top;
-    margin-top:25px;
-    margin-right:0px;
+    margin-top: 25px;
+    margin-right: 0px;
     text-align: left;
-    h2 {
-      color:white;
-      text-decoration: none;
-    }
     p {
-      color:lightgrey;
-      width:275px;
-      font-size:12px;
+      color: lightgrey;
+      width: 275px;
+      font-size: 12px;
       line-height: 25px;
     }
   }
 
   .projectImgContainer {
-    height:160px;
-    width:300px;
+    height: 160px;
+    width: 300px;
   }
 }
 
 @media only screen and (max-width: 647px) {
   .projectContainer {
-    text-align:center;
+    text-align: center;
   }
   .projectTextContainer {
     display: inline-block;
-    vertical-align: top;
-    margin-top:-25px;
-    margin-bottom:40px;
+    margin-top: -25px;
+    margin-bottom: 40px;
     text-align: center;
-    h2 {
-      color:white;
-      text-decoration: none;
+    #title {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 10px;
     }
     p {
-      color:lightgrey;
-      max-width:400px;
-      width:95%;
+      color: lightgrey;
+      max-width: 400px;
+      width: 95%;
       line-height: 25px;
-      text-align:center;
-      margin:auto;
+      text-align: center;
+      margin: auto;
     }
   }
 }

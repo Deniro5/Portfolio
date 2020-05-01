@@ -1,33 +1,32 @@
 .homeContainer {
   text-align: center;
-
-
+  overflow: hidden;
+  height: 100vh;
 }
 
 .homeContent {
   max-width: 800px;
-  width:90%;
-  margin:auto;
-  margin-top:25vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 25vh;
 }
 
 .homeName {
-  color:rgb(255, 255, 255);
-  font-size:64px;
-
+  color: rgb(255, 255, 255);
+  font-size: 64px;
 }
 
 .homeSubName {
   color: white;
-  font-size:24px;
-  margin-top:-30px;
-  margin-bottom:75px;
+  font-size: 24px;
+  margin-top: -30px;
+  margin-bottom: 75px;
 }
 
 .homeSubText {
-  font-size:16px;
+  font-size: 16px;
   line-height: 25px;
-  color:grey;
+  color: rgb(180, 179, 179);
 }
 
 .fadeDown {
@@ -35,16 +34,16 @@
 }
 
 .fadeUp {
-  animation: fadeUp 3s; 
+  animation: fadeUp 3s;
   button {
-    margin:25px 25px;
-    color:white;
+    margin: 25px 25px;
+    color: white;
     border: 2px solid white;
     font-weight: bold;
-    background:none;
-    height:30px;
-    width:140px;
-    transition:0.3s;
+    background: none;
+    height: 30px;
+    width: 140px;
+    transition: 0.3s;
   }
   button:hover {
     background: white;
@@ -53,40 +52,51 @@
   }
 }
 
-
 @keyframes fadeDown {
-  from {transform: translatey(-200px); opacity: 0;}
-  to {transform: translatey(0px); opacity: 1;}
+  from {
+    transform: translatey(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translatey(0px);
+    opacity: 1;
+  }
 }
 
 @keyframes fadeUp {
-  from {transform: translatey(200px); opacity: 0;}
-  to {transform: translatey(0px); opacity: 1;}
+  from {
+    transform: translatey(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translatey(0px);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .homeName {
-    color:rgb(255, 255, 255);
-    font-size:42px;
+    color: rgb(255, 255, 255);
+    font-size: 42px;
   }
   .homeSubName {
     color: white;
-    font-size:16px;
-    margin-top:-20px;
-    margin-bottom:75px;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 75px;
   }
   .homeSubText {
-    font-size:12px;
+    font-size: 12px;
     line-height: 25px;
-    color:grey;
+    color: grey;
   }
 
   .fadeUp {
     button {
-      margin:40px 15px;
+      margin: 40px 15px;
       font-weight: normal;
-      height:30px;
-      width:120px;
+      height: 30px;
+      width: 120px;
     }
     button:hover {
       background: white;
@@ -94,5 +104,4 @@
       cursor: pointer;
     }
   }
-  
 }
