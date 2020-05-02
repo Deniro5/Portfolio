@@ -3,7 +3,7 @@
 @import "./components/footer.scss";
 @import "./components/about.scss";
 @import "./components/contact.scss";
-@import "./components/project.scss";
+@import "./components/slideshow.scss";
 @import "./components/showcase.scss";
 
 html {
@@ -12,7 +12,8 @@ html {
 body {
   margin: 0;
   font-family: "Palatino", "Lucida Grande", sans-serif;
-  background-image: url("background1.jpg");
+  background-image: url("background.jpg");
+  background-size: cover;
 }
 
 ::placeholder {

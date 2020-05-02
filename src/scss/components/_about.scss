@@ -102,13 +102,17 @@
   margin: 40px;
   height: 100px;
   width: 100px;
+  transition: 0.4s;
   img {
     height: 100%;
     width: 100%;
   }
   p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
+  }
+  &:hover {
+    color: rgb(245, 245, 153);
   }
 }
 

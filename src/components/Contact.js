@@ -38,7 +38,7 @@ const Contact = (props) => {
         } */
   };
 
-  const ValidateEmail = (email) => {
+  /* const ValidateEmail = (email) => {
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
       return true;
     }
@@ -53,7 +53,7 @@ const Contact = (props) => {
     } else {
       return [true, ""];
     }
-  };
+  }; */
 
   return (
     <div className='uploadContainer'>

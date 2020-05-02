@@ -14,7 +14,7 @@ const Project = (props) => {
         <a id='title' href={link}>
           {title}
         </a>
-        <p> {description} </p>
+        <p> {description} afuehfuaehfueahf</p>
         <p style={{ color: "white" }}>
           <b>Source Code:</b>
           <a style={{ display: "block", color: "lightgrey" }} href={src}>

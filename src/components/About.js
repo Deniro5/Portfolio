@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const linkStyle = {
@@ -62,7 +62,7 @@ const About = (props) => {
       <div className='skillContainer'>
         {skills.map((skill) => (
           <div className='skill'>
-            <img src={skill.img} />
+            <img alt={"icon"} src={skill.img} />
             <p> {skill.name} </p>
           </div>
         ))}

@@ -1,6 +1,6 @@
 .showcaseContainer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10vh;
   margin-bottom: 50px;
   h1 {
     color: white;
@@ -10,6 +10,7 @@
     margin-bottom: 40px;
   }
   animation: fade 1s;
+  min-height: 85vh;
 }
 
 .showcaseDivider {
