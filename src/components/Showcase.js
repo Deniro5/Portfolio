@@ -33,12 +33,12 @@ const projects = [
       "Clinic Website Template. View information about the clinic and it's doctors. Contact the clinic about any inquiries.",
   },
   {
-    src: "https://github.com/Deniro5/Quiz",
-    link: "https://deniro5.github.io/Quiz/",
-    imgsrc: "imgs/quiz.png",
-    title: "Quiz Website",
+    src: "https://github.com/Deniro5/Playbook",
+    link: "https://deniro5.github.io/Playbook/",
+    imgsrc: "imgs/playbook.png",
+    title: "Football Playbook Creator",
     description:
-      "Quiz Website with 6 different categories of quizzes to choose from. Made with the help of the Opentdb API.",
+      "Website that allows users to create and save football playbooks, formations and plays. Made with React and canvas.",
   },
   {
     src: "https://github.com/Deniro5/Gram",
