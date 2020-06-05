@@ -3,6 +3,14 @@ import Slideshow from "./Slideshow";
 
 const projects = [
   {
+    src: "https://github.com/Deniro5/blogsite",
+    link: "https://blog55555.herokuapp.com/",
+    imgsrc: "imgs/blog.png",
+    title: "Blogging Site",
+    description:
+      "Users can create articles and read, like and comment on articles posted by other users. Can follow other users and have followed users articles displayed in the custom feed. Made with React, Node, Express and MongoDb.",
+  },
+  {
     src: "https://github.com/Deniro5/Tetris",
     link: "https://deniro5.github.io/Tetris/",
     imgsrc: "imgs/tetris.png",
@@ -48,6 +56,7 @@ const projects = [
     description:
       "Social media website. Sign in as a@a.com, b@b.com .... e@e.com. Password is first letter of username. Made using React, Node.js and Express",
   },
+  /*
   {
     src: "https://github.com/Deniro5/MatchingGame",
     link: "https://deniro5.github.io/MatchingGame/",
@@ -56,7 +65,7 @@ const projects = [
     description:
       "Matching Pairs Game. Choose from either easy, medium or hard and try and find the matching pairs before time runs out.",
   },
-  /* {
+   {
     src: "https://github.com/Deniro5/Snake",
     link: "https://deniro5.github.io/Snake/",
     imgsrc: "imgs/snake.png",
