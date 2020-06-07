@@ -6,6 +6,10 @@
   height: 85vh;
 }
 
+#contactTitle {
+  font-weight: 200;
+}
+
 .fieldContainer {
   max-width: 600px;
   width: 90%;
@@ -60,6 +64,8 @@
   margin-bottom: 50px;
   max-width: 450px;
   width: 90%;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .uploadContainer button {

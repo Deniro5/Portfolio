@@ -57,7 +57,7 @@ const Contact = (props) => {
 
   return (
     <div className='uploadContainer'>
-      <h1> Get in Touch </h1>
+      <h1 id='contactTitle'> Get in Touch </h1>
       <p className='subTitle'>
         {" "}
         Fill out the form below if you have any questions. I will get back to you as soon

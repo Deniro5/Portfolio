@@ -8,11 +8,12 @@
 
 html {
   background: rgba(0, 0, 0, 1);
+  background-image: url("./background.jpg");
 }
 body {
   margin: 0;
   font-family: "Palatino", "Lucida Grande", sans-serif;
-  background-image: url("background.jpg");
+
   background-size: cover;
 }
 

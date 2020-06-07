@@ -29,10 +29,10 @@ const Slideshow = (props) => {
     <div>
       <div className='slideshowContainer'>
         <p onClick={prev} id='prev'>
-          <Prev className='arrow' />
+          <Prev />
         </p>
         <p onClick={next} id='next'>
-          <Next className='arrow' />
+          <Next />
         </p>
         <div className='slideshowImgContainer'>
           <a href={link}>

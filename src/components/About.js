@@ -24,7 +24,7 @@ const About = (props) => {
       </div>
       <div className='titleContainer'>
         <h1 className='aboutName2'> Dean Towheed </h1>
-        <h2 className='aboutSubtitle2'> (Front end web developer)</h2>
+        <h2 className='aboutSubtitle2'> (Front end developer)</h2>
       </div>
       <div className='aboutTextContainer2'>
         <h1

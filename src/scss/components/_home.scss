@@ -14,11 +14,13 @@
 .homeName {
   color: rgb(255, 255, 255);
   font-size: 64px;
+  font-weight: 500;
 }
 
 .homeSubName {
   color: white;
   font-size: 24px;
+  font-weight: normal;
   margin-top: -30px;
   margin-bottom: 75px;
 }
@@ -38,8 +40,8 @@
   button {
     margin: 25px 25px;
     color: white;
-    border: 2px solid white;
-    font-weight: bold;
+    border: 1px solid white;
+    font-weight: 500;
     background: none;
     height: 30px;
     width: 140px;
