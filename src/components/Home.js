@@ -7,7 +7,7 @@ const Home = (props) => {
       <div className='homeContent'>
         <div className='fadeDown'>
           <h1 className='homeName'> Dean Towheed </h1>
-          <h2 className='homeSubName'> Front end developer</h2>
+          <h2 className='homeSubName'> Full Stack Developer</h2>
         </div>
         <div className='fadeUp'>
           <h2 className='homeSubText'>
