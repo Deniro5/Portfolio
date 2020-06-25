@@ -8,7 +8,15 @@ const projects = [
     imgsrc: "imgs/blog.png",
     title: "Blogging Site",
     description:
-      "Users can create articles and read, like and comment on articles posted by other users. Can follow other users and have followed users articles displayed in the custom feed. Made with React, Node, Express and MongoDb.",
+      "Users can create articles and read, like and comment on articles posted by other users. Can follow other users and have followed users articles displayed in the custom feed. Made using React, Node.js, MongoDb and Express.",
+  },
+  {
+    src: "https://github.com/Deniro5/Gram",
+    link: "https://rocky-lake-89848.herokuapp.com/",
+    imgsrc: "imgs/gram.png",
+    title: "Instagram Inspired Site",
+    description:
+      "Social media website. Follow users, post content, like/ comment on other posts and more. Made using React, Node.js, MongoDb and Express",
   },
   {
     src: "https://github.com/Deniro5/Tetris",
@@ -48,14 +56,7 @@ const projects = [
     description:
       "Website that allows users to create and save football playbooks, formations and plays. Made with React and canvas.",
   },
-  {
-    src: "https://github.com/Deniro5/Gram",
-    link: "https://rocky-lake-89848.herokuapp.com/",
-    imgsrc: "imgs/gram.png",
-    title: "Instagram Remake",
-    description:
-      "Social media website. Sign in as a@a.com, b@b.com .... e@e.com. Password is first letter of username. Made using React, Node.js and Express",
-  },
+
   /*
   {
     src: "https://github.com/Deniro5/MatchingGame",
