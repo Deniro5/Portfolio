@@ -16,7 +16,7 @@ const projects = [
     imgsrc: "imgs/gram.png",
     title: "Instagram Inspired Site",
     description:
-      "Social media website. Follow users, post content, like/ comment on other posts and more. Made using React, Node.js, MongoDb and Express",
+      "Social media website. Follow users, post content, like/comment on other posts and more. Made using React, Node.js, MongoDb and Express",
   },
   {
     src: "https://github.com/Deniro5/Tetris",

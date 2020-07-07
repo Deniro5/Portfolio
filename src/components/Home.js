@@ -11,9 +11,8 @@ const Home = (props) => {
         </div>
         <div className='fadeUp'>
           <h2 className='homeSubText'>
-            {" "}
             Hello and welcome to my personal portfolio. Click on one of the buttons below
-            to get started or navigate using the header at the top of the page.{" "}
+            to get started or navigate using the header at the top of the page.
           </h2>
           <Link to='/about'>
             <button
