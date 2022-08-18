@@ -24,7 +24,6 @@ const Slideshow = (props) => {
     }
   };
 
-  console.log(projects[curr]);
   return (
     <div>
       <div className='slideshowContainer'>
@@ -44,6 +43,12 @@ const Slideshow = (props) => {
             {title}
           </a>
           <p> {description} </p>
+          <p style={{ color: "white" }}>
+            <b>Demo:</b>
+            <a style={{ display: "block", color: "lightgrey" }} href={link}>
+              {link}
+            </a>
+          </p>
           <p style={{ color: "white" }}>
             <b>Source Code:</b>
             <a style={{ display: "block", color: "lightgrey" }} href={src}>

@@ -20,11 +20,11 @@ const About = (props) => {
   return (
     <div className='aboutContainer2'>
       <div className='aboutImgContainer2'>
-        <img alt='portrait' src='imgs/edited.png' />
+        <img alt='portrait' src='imgs/edited.jpg' />
       </div>
       <div className='titleContainer'>
         <h1 className='aboutName2'> Dean Towheed </h1>
-        <h2 className='aboutSubtitle2'> (Full Stack Developer)</h2>
+        <h2 className='aboutSubtitle2'> (Front End Developer)</h2>
       </div>
       <div className='aboutTextContainer2'>
         <h1
@@ -38,10 +38,10 @@ const About = (props) => {
           the age of 10 where it’s been home since. I’ve been programming for over 10
           years and hold a Bachelor's Degree in Computer Science from the University of
           Toronto. It was during my undergraduate tenure that I discovered my love for
-          full stack development which allows me to pursue my dream of creating high
+          front end development which allows me to pursue my dream of creating high
           quality applications that can benefit a variety of different users. Since then I
           have devoted my time to developing various projects and strengthening my skills
-          as a Full Stack Developer. When I’m not coding, I’m either playing sports,
+          as a Front End Developer. When I’m not coding, I’m either playing sports,
           spending time with family or enjoying nature.
         </p>
         <p>

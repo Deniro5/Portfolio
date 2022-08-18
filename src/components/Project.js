@@ -11,10 +11,15 @@ const Project = (props) => {
         </a>
       </div>
       <div className='projectTextContainer'>
-        <a id='title' href={link}>
-          {title}
-        </a>
-        <p> {description} afuehfuaehfueahf</p>
+        <a id='title' href={link} />
+        <p> {description}</p>
+
+        <p style={{ color: "white" }}>
+          <b>Demo:</b>
+          <a style={{ display: "block", color: "lightgrey" }} href={link}>
+            {link}
+          </a>
+        </p>
         <p style={{ color: "white" }}>
           <b>Source Code:</b>
           <a style={{ display: "block", color: "lightgrey" }} href={src}>

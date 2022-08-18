@@ -4,7 +4,7 @@ import Slideshow from "./Slideshow";
 const projects = [
   {
     src: "https://github.com/Deniro5/blogsite",
-    link: "https://blog55555.herokuapp.com/",
+    link: "https://blog55555.herokuapp.com",
     imgsrc: "imgs/blog.png",
     title: "Blogging Site",
     description:
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     src: "https://github.com/Deniro5/Gram",
-    link: "https://rocky-lake-89848.herokuapp.com/",
+    link: "https://rocky-lake-89848.herokuapp.com",
     imgsrc: "imgs/gram.png",
     title: "Instagram Inspired Site",
     description:
@@ -20,14 +20,14 @@ const projects = [
   },
   {
     src: "https://github.com/Deniro5/Tetris",
-    link: "https://deniro5.github.io/Tetris/",
+    link: "https://deniro5.github.io/Tetris",
     imgsrc: "imgs/tetris.png",
     title: "Tetris",
     description: "Classic game of Tetris. Made with React.             ",
   },
   {
     src: "https://github.com/Deniro5/clothingStore",
-    link: "https://deniro5.github.io/clothingStore/",
+    link: "https://deniro5.github.io/clothingStore",
     imgsrc: "imgs/ecommerce.png",
     title: "Clothing Store Template",
     description:
@@ -35,14 +35,14 @@ const projects = [
   },
   {
     src: "https://github.com/Deniro5/dungeoncrawler",
-    link: "https://deniro5.github.io/dungeoncrawler/",
+    link: "https://deniro5.github.io/dungeoncrawler",
     imgsrc: "imgs/dungeoncrawler.png",
     title: "Dungeon Crawler",
     description: "2D dungeon crawler game. Made with React.",
   },
   {
     src: "https://github.com/Deniro5/Clinic",
-    link: "https://deniro5.github.io/Clinic/",
+    link: "https://deniro5.github.io/Clinic",
     imgsrc: "imgs/clinic.png",
     title: "Clinic Template",
     description:
@@ -50,7 +50,7 @@ const projects = [
   },
   {
     src: "https://github.com/Deniro5/Playbook",
-    link: "https://deniro5.github.io/Playbook/",
+    link: "https://deniro5.github.io/Playbook",
     imgsrc: "imgs/playbook.png",
     title: "Football Playbook Creator",
     description:
@@ -83,21 +83,21 @@ const projects = [
   }, */
   {
     src: "https://github.com/Deniro5/Blackjack",
-    link: "https://deniro5.github.io/Blackjack/",
+    link: "https://deniro5.github.io/Blackjack",
     imgsrc: "imgs/blackjack.png",
     title: "Blackjack",
     description: "Play Blackjack against the automated dealer. Made with React.",
   },
   {
     src: "https://github.com/Deniro5/Wordsearch",
-    link: "https://deniro5.github.io/Wordsearch/",
+    link: "https://deniro5.github.io/Wordsearch",
     imgsrc: "imgs/wordsearch.png",
     title: "Wordsearch",
     description: "Randomly generated wordsearch game. Made using Canvas.",
   },
   {
     src: "https://github.com/Deniro5/Pokedex2",
-    link: "https://deniro5.github.io/Pokedex2/",
+    link: "https://deniro5.github.io/Pokedex2",
     imgsrc: "imgs/pokedex.png",
     title: "Pokedex",
     description:
