@@ -18,14 +18,14 @@ function Projects() {
 
       <Modal open={!!video} onClose={() => setVideo(null)}>
         {video && (
-          <iframe
-            src="https://player.vimeo.com/video/76979871?autoplay=1"
-            width="800"
-            height="500"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <VideoContainer>
+            <iframe
+              src="https://player.vimeo.com/video/76979871?autoplay=1"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </VideoContainer>
         )}
       </Modal>
     </>
@@ -50,4 +50,14 @@ const Title = styled.h2`
   padding-bottom: 32px;
 `;
 
+const VideoContainer = styled.div`
+  max-width: 900px;
+  width: 80vw;
+  aspect-ratio: 16 / 9;
+  padding-top: 16px;
+  & > iframe {
+    width: 100%;
+    height: 100%;
+  }
+`;
 export default Projects;
