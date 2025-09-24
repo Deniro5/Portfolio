@@ -47,11 +47,11 @@ function About() {
           <Group>
             <Subtitle>Who Am I?</Subtitle>
             <Text>
-              Hi! My name is Ryan! I was born in London, England, and moved to
+              Hi! My name is Dean! I was born in London, England, and moved to
               Toronto, Ontario at the age of 10, which has been home ever since.
               I’ve been programming for over 15 years and hold a Bachelor’s
               Degree in Computer Science from the University of Toronto.
-              Professionally, I’ve worked as a Frontend Engineer since August
+              Professionally, I’ve worked as a Frontend Developer since August
               2020, with experience at Oxio, Mosaic, and Sonatype.
               <br />
               <br />

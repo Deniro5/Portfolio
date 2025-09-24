@@ -10,12 +10,12 @@ const ProjectList = [
     description:
       "Developed a full-stack personal finance application with MongoDB, Express, Node.js on the backend and React, TypeScript, TanStack Query and Zustand on the frontend. Users can view their financial dashboard across different time periods, track accounts, investments, and transactions, and create recurring or preset transactions. The app also allows users to set budgets and monitor their current status in real time, providing a clear overview of their finances.",
     gitLink: "https://www.github.com/deniro5/budgetapp",
-    demoLink: "www.randomlink.com",
+    video: { name: "Personal Budget App Demo", code: "1121382309" },
     stack: [
       "React",
-      "Redux",
+      "Tanstack Query",
       "Typescript",
-      "TanStack Query",
+      "Zustand",
       "Node.js",
       "Express",
       "MongoDB",
@@ -28,7 +28,7 @@ const ProjectList = [
     description:
       "Built a full-featured Spotify client using React, TypeScript, Redux, and Styled Components, with a minimal Node/Express backend to handle authentication. The app integrates directly with the Spotify API to allow users to log in, play music, shuffle tracks, set sleep timers, find new music and manage playlists (create, update and delete)",
     gitLink: "https://www.github.com/deniro5/spotifyPlayer",
-    demoLink: "www.randomlink.com",
+    video: { name: "Spotify App Demo", code: "1121384886" },
     stack: ["React", "Redux", "Styled Components", "Typescript", "Node.js"],
   },
   {
@@ -37,7 +37,7 @@ const ProjectList = [
     description:
       "Developed a real-time multiplayer Pokémon battle application where users can register, select a team, and compete against other players. Implemented backend functionality using Node.js and Express, with WebSockets enabling live battle interactions. User statistics and battle outcomes are tracked to provide dynamic gameplay progression. The project leverages the PokeAPI to manage Pokémon data and move sets.",
     gitLink: "https://www.github.com/deniro5/pokemon-battle",
-    demoLink: "www.randomlink.com",
+    video: { name: "Spotify App Demo", code: "1121369679" },
     stack: [
       "React",
       "Typescript",

@@ -3,9 +3,10 @@ import ProjectList from "./ProjectList";
 import Project from "./Project";
 import { useState } from "react";
 import { Modal } from "../Global/Modal";
+import { Video } from "./types";
 
 function Projects() {
-  const [video, setVideo] = useState<string | null>(null);
+  const [video, setVideo] = useState<Video | null>(null);
 
   return (
     <>
@@ -20,10 +21,11 @@ function Projects() {
         {video && (
           <VideoContainer>
             <iframe
-              src="https://player.vimeo.com/video/76979871?autoplay=1"
+              src={`https://player.vimeo.com/video/${video.code}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              title={video.name}
               frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
             ></iframe>
           </VideoContainer>
         )}

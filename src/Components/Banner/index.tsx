@@ -33,8 +33,8 @@ function Header() {
             </LinkContainer>
             <LinkContainer>
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
-              <Link href="mailto:deantowheed5@gmail.com">
-                Deantowheed5@gmail.com
+              <Link href="mailto:deantowheed@gmail.com">
+                Deantowheed@gmail.com
               </Link>
             </LinkContainer>
           </Links>

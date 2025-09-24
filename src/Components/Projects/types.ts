@@ -3,6 +3,12 @@ export type ProjectType = {
   name: string;
   description: string;
   gitLink: string;
-  demoLink: string;
   stack: string[];
+  video?: Video;
+  demoLink?: string;
+};
+
+export type Video = {
+  name: string;
+  code: string;
 };

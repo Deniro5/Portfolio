@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ProjectType } from "./types";
+import { ProjectType, Video } from "../types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -8,30 +8,39 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Colors, Spacing } from "../../../styles";
 import { ButtonLink } from "../../Global/ButtonLink";
+import { Button } from "../../Global/Button";
 type ProjectProps = {
   project: ProjectType;
-  setVideo: React.Dispatch<React.SetStateAction<string | null>>;
+  setVideo: React.Dispatch<React.SetStateAction<Video | null>>;
 };
 
 function Project({ project, setVideo }: ProjectProps) {
-  const { name, imgsrc, description, demoLink, gitLink, stack } = project;
+  const { name, imgsrc, description, demoLink, gitLink, stack, video } =
+    project;
 
+  const handleOverlayClick = () => {
+    if (video) {
+      setVideo(video);
+    } else {
+      window.open(demoLink, "_blank");
+    }
+  };
   return (
     <Card key={name}>
       <CardWrapper>
         <ImageWrapper>
-          <Overlay tabIndex={1} onClick={() => setVideo(imgsrc)}>
+          <Overlay onClick={handleOverlayClick}>
             <OverlayContent>
-              <PlayButton tabIndex={-1}>
+              <OverlayButton tabIndex={-1}>
                 <FontAwesomeIcon
-                  icon={faPlay}
+                  icon={video ? faPlay : faArrowUpRightFromSquare}
                   color="white"
                   style={{
                     width: "5em",
                     height: "5em",
                   }}
                 />
-              </PlayButton>
+              </OverlayButton>
             </OverlayContent>
           </Overlay>
           <Image src={imgsrc} alt={name} />
@@ -51,16 +60,22 @@ function Project({ project, setVideo }: ProjectProps) {
           </TechList>
 
           <Actions>
-            <ButtonLink
-              variant="outlined"
-              size="sm"
-              href={gitLink}
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-              Code
-            </ButtonLink>
-
+            {video && (
+              <Button
+                size="sm"
+                variant="filled"
+                onClick={() => setVideo(video)}
+              >
+                <FontAwesomeIcon
+                  icon={faPlay}
+                  style={{
+                    width: "0.8em",
+                    height: "0.8em",
+                  }}
+                />
+                Watch Video
+              </Button>
+            )}
             {demoLink && (
               <ButtonLink
                 size="sm"
@@ -78,12 +93,42 @@ function Project({ project, setVideo }: ProjectProps) {
                 Live Demo
               </ButtonLink>
             )}
+            <ButtonLink
+              variant="outlined"
+              size="sm"
+              href={gitLink}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+              Code
+            </ButtonLink>
           </Actions>
         </Content>
       </CardWrapper>
     </Card>
   );
 }
+
+const Overlay = styled.div`
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+
+  height: 100%;
+  width: 100%;
+
+  &:hover {
+    opacity: 1;
+  }
+`;
 
 const Card = styled.div`
   overflow: hidden;
@@ -93,6 +138,10 @@ const Card = styled.div`
   text-align: left;
   &:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+
+    ${Overlay} {
+      opacity: 1;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -141,37 +190,12 @@ const Content = styled.div<{ featured?: boolean }>`
   }
 `;
 
-const Overlay = styled.div`
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-  cursor: pointer;
-
-  height: 100%;
-  width: 100%;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  &:focus-within {
-    opacity: 1;
-  }
-`;
-
 const OverlayContent = styled.div`
   position: relative;
   z-index: 2;
 `;
 
-const PlayButton = styled.button`
+const OverlayButton = styled.button`
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
